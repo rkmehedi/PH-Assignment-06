@@ -134,6 +134,11 @@ font-style: normal;
 font-weight: 500;
 line-height: 28px;
 }
+.border-line{
+  border-top: 3px solid #FFEBEB;
+background: #FFF;
+margin-top: 200px;
+}
 .footer-text-about{
   font-family: 'BenSen', sans-serif;
   color: #000;
