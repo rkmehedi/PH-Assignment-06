@@ -126,3 +126,29 @@ border: 1px solid #422AD5;
       border-radius: 24px;
 background: #F8F8F8;
 }
+.footer-text{
+  color: #000;
+  font-family: 'BenSen', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 28px;
+}
+.footer-text-about{
+  font-family: 'BenSen', sans-serif;
+  color: #000;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px;
+}
+.follow-us{
+  color: #18181B;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+text-transform: uppercase;
+opacity: 0.6;
+}
