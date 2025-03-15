@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>English জানালা</title>
       <!-- Font Awesome -->
       <script
       src="https://kit.fontawesome.com/7f8d2a7488.js"
@@ -18,12 +18,65 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Fonts -->
   <link href="https://fonts.maateen.me/bensen-handwriting/font.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
  <!-- Fav-icon -->
    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
    <!-- CSS link -->
     <link rel="stylesheet" href="styles/style.css">
 </head>
-<body>
-    
+<body class="poppins-normal mx-auto ">
+    <header  class=" header-main ">
+        <div class=" flex justify-between items-center">
+            <div class="logo-side flex items-center justify-center py-3 pl-[87px] ">
+                <h2 class="text-xl font-semibold text-[#18181B]">English</h2>
+                <img src="./assets/logo.png" alt="Site logo">
+                <h2 class=" bangla text-xl text-[#000000]">জানালা</h2>
+            </div>
+            <div class="button-side flex items-center justify-center gap-4 pr-[77px]">
+                <h2 class="faq-btn"><i class="fa-solid fa-circle-question"></i> FAQ</h2>
+                <h2 class="faq-btn"><i class="fa-solid fa-book-open"></i> Learn</h2>
+                <h2 class="faq-btn"><i class="fa-solid fa-right-from-bracket"></i> Logout</h2>
+            </div>
+        </div>
+    </header>
+     
+    <main class="fix-layout mx-auto">
+        <section id="main-banner-section" class="">
+            <div class="banner-section-main-div flex justify-between items-center">
+                <div class="text-side">
+                    <h2 class="heading-text-banner"> <span style="color:#00BCFF;">English</span> is Easy!!</h2>
+                    <p class="heading-text w-[727px]">আজ থেকেই আপনার ভাষা শেখার যাত্রা শুরু করুন। আপনি যদি নতুন হন অথবা আপনার দক্ষতা বাড়াতে চান, আমাদের Interactive Lessons আপনাকে নিয়ে যাবে অন্য একটি Level এ</p>
+                    <div>
+                        <fieldset class="fieldset w-xs   p-4  login-fieldset">
+                            <form id="main-login-form" class="flex flex-col gap-5">
+                            
+                           
+                            <input type="text" class="border border-base-300 rounded-sm text-[14px] text-[rgba(24,24,27,0.50)];
+
+                            ]" id="user-id-name" placeholder="Enter Your Name" required />
+                            
+                        
+                            <input type="password" class="border border-base-300 rounded-sm" id="password" placeholder=".................." required />
+                            
+                            <button type="submit" id="login-button" class="login-button-class">Get Started</button>
+                        </form>  
+                        </fieldset>
+                        
+                        
+                    </div>
+                </div>
+                <div class="image-side">
+                    <img src="./assets/hero-student.png" class="w-[734px] h-[732px]
+                    " alt="">
+                </div>
+            </div>
+        </section>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>

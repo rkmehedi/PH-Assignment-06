@@ -4,3 +4,85 @@
     font-weight: 400 ;
     font-style: normal;    
   }
+  body{
+    
+background: linear-gradient(92deg, rgba(255, 255, 255, 0.30) 0%, rgba(0, 0, 0, 0.00) 100%), linear-gradient(90deg, rgba(255, 255, 255, 0.05) 25%, rgba(0, 0, 0, 0.00) 25%);
+backdrop-filter: blur(20px);
+  }
+  .poppins-normal {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .fix-layout{
+    width: 1760px;
+  }
+  .faq-btn{display: flex;
+    width: 82.47px;
+    height: 40px;
+    padding: 9.5px 16.628px 10.5px 17px;
+    justify-content: center;
+    align-items: center;
+    gap: 5.637px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #422AD5;
+
+    color: #422AD5;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 21px;}
+    .faq-btn:hover{
+         background-color: #422AD5;
+         color: #ffffff;
+    }
+    .heading-text-banner{
+      color: #18181B;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: 48px;
+    }
+    .header-main{border-bottom: 1px solid #C6BDBD;
+      /* w-[1756px] */
+    }
+    .heading-text{
+      color: #18181B;
+      margin-top: 24px;
+      font-family: 'BenSen', sans-serif;
+ font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+    }
+    .login-fieldset{
+      display: flex;
+width: 320px;
+height: 184px;
+padding: 12px 0px;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+flex-shrink: 0;
+    }
+    .login-button-class{
+      color: #E0E7FF;
+text-align: center;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 600;
+line-height: 20px;
+display: flex;
+width: 115px;
+height: 40px;
+padding: 9px 16px 10px 17px;
+justify-content: center;
+align-items: center;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #3D26C7;
+background: #422AD5;
+    }
