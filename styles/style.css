@@ -45,6 +45,10 @@ backdrop-filter: blur(20px);
          background-color: #422AD5;
          color: #ffffff;
     }
+    .lesson-btn:hover{
+         background-color: #422AD5;
+         color: #ffffff;
+    }
     .heading-text-banner{
       color: #18181B;
 font-size: 48px;
