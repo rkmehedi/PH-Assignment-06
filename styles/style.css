@@ -137,6 +137,10 @@ border: 1px solid #422AD5;
       border-radius: 24px;
 background: #F8F8F8;
 }
+.active-button{
+  background-color: #422AD5;
+         color: #e75805;
+}
 .footer-text{
   color: #000;
   font-family: 'BenSen', sans-serif;
