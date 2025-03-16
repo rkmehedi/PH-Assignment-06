@@ -25,19 +25,23 @@ function loadLesson(){
         const lessonCardSet=document.createElement("button");
         lessonCardSet.innerHTML=`
         
-        <button onclick="levelGenerator(${lesson.level_no})" class=" lesson-btn"><i class="fa-solid fa-book-open"></i> ${lesson.lessonName}</button>
+        <button onclick="levelGenerator(${lesson.level_no});" class=" lesson-btn"><i class="fa-solid fa-book-open"></i> ${lesson.lessonName}</button>
         `;
         lessonCard.append(lessonCardSet);
     }
     }
     // Level-generator
     function levelGenerator(currentLevel){
+        
+        // displayHide();
         const url= `https://openapi.programming-hero.com/api/level/${currentLevel}`;
         
         fetch(url)
         .then((res)=>res.json()
         ).then((myLevel) =>
+            
             pronounceGet(myLevel.data)
+            
         );
 
     }
@@ -46,10 +50,22 @@ function loadLesson(){
         function pronounceGet(data)
         {
             
+           
+
             const pronounce= document.getElementById("main-card-id");
             pronounce.innerHTML="";
+            if (data.length==0){
+                pronounce.innerHTML=`<div class="empty-card-msg" id="empty-lesson">
+                    <img src="./assets/alert-error.png" alt="">
+                    <h3 class="bangla text-[#79716B] text-[13px] text-center">এই Lesson এ এখনো কোন Vocabulary যুক্ত করা হয়নি।</h3>
+                    <h3 class="bangla text-[#292524] text-[34px] text-center font-medium">নেক্সট Lesson এ যান।</h3>
+                </div>`;
+            }
+
         for (const cardFile of data) {
             const cardSet=document.createElement("div");
+
+            
             
             cardSet.innerHTML=`
                         
@@ -71,6 +87,8 @@ function loadLesson(){
             pronounce.append(cardSet);
         }
         }
+        // Hide No select
 
+        
 
 loadLesson();
